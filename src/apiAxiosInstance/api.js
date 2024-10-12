@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/v1/car_list",
+  baseURL:
+    "https://pagination-backend.vercel.app/?vercelToolbarCode=YqKJWizhSSz-Itw",
   timeout: 20000,
   withCredentials: true,
 });
