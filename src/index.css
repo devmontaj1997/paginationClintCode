@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer components{
+    .container{
+        @apply lg:max-w-[90%] xxxsm:max-w-[95%] mx-auto
+
+    }
+     
+}
+/* all li */
+li{
+    list-style: none;
+}
+/* body{
+    background-color:  #c9c9cb;
+} */
+.active{
+    border-bottom: 1px solid #FF014F;
+    color: white;
+}
+.paginationActive{
+background-color: #FF014F;
+}
